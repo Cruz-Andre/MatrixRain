@@ -53,4 +53,6 @@ const draw = () => {
   }
 };
 
+// Chama a função draw repetidamente em um intervalo de 90 milissegundos
+// Mude o número para cair mais rápido ou devagar.
 setInterval(draw, 90);
